@@ -34,9 +34,12 @@ BCS Notify:
 ESX example:
 
 Default (es_extended/client/functions.lua):
+
 ![image](https://forum-cfx-re.akamaized.net/original/4X/6/f/8/6f8ac65b776463ef34bea4dc8b66daecc2fcf91b.png)
 
 BCS Notify:
+```lua
 function ESX.ShowNotification(message, type, length)
     TriggerEvent('bcs-notify', message, type, length)
 end
+```
