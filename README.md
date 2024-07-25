@@ -19,21 +19,24 @@ image
 ![image](https://forum-cfx-re.akamaized.net/original/4X/b/6/5/b65eb1a76b81f05d52dd8f56dc4878c5ce37353a.png)
 
 BCS Notify:
+
 ![image](https://forum-cfx-re.akamaized.net/original/4X/1/6/e/16eb0e9a33d0ae85d112f8710a213622e1f8b91d.png)
 
 Default (qb-core/client/functions.lua):
+
 ![image](https://forum-cfx-re.akamaized.net/original/4X/8/f/7/8f75a96e7e86227c6398e1b44bbb983c7114449d.png)
 
 BCS Notify:
+
 ![image](https://forum-cfx-re.akamaized.net/original/4X/f/d/5/fd5602c2a102b4d2ccf9bab9a564cd74afd1d0c3.png)
 
 
 ESX example:
+
 Default (es_extended/client/functions.lua):
 ![image](https://forum-cfx-re.akamaized.net/original/4X/6/f/8/6f8ac65b776463ef34bea4dc8b66daecc2fcf91b.png)
 
 BCS Notify:
-
 function ESX.ShowNotification(message, type, length)
     TriggerEvent('bcs-notify', message, type, length)
 end
