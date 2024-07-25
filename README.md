@@ -10,3 +10,20 @@ A notification system script for any type of server.
 
 # Other releases
 - [BCS HUD](https://forum.cfx.re/t/bcs-hud-simple-hud-for-fivem-rp-servers/5057159)
+Installation
+You have to change your core Notify function. es_extended (ESX), qb-core, etc…
+
+QB-Core example:
+Default (qb-core/server/functions.lua):
+image
+BCS Notify:
+image
+Default (qb-core/client/functions.lua):
+image
+BCS Notify:
+image
+
+ESX example:
+Default (es_extended/client/functions.lua):
+image
+BCS Notify:
